@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 const int SIZE = 5;
@@ -40,6 +40,4 @@ int main() {
     for (int i = 0; i < SIZE*2; i++) {
         cout << result[i] << " ";
     }
-
-    return 0;
 }
